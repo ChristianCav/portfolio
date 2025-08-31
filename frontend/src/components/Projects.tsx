@@ -26,7 +26,7 @@ const Projects = () => {
             <img
               src="AthleticBase-picture.png"
               alt="AthleticBase project screenshot"
-              className="w-full object-contain rounded-lg h-auto"
+              className="w-full object-cover rounded-lg h-40"
             />
             <div className="description text-white text-sm gap-y-1/2 flex flex-col text-center">
               <span>Web app to track your performances in</span>
@@ -76,7 +76,7 @@ const Projects = () => {
             <img
               src="pokemon.png"
               alt="PokemonGo project screenshot"
-              className="w-full object-contain rounded-lg h-auto"
+              className="w-full object-cover rounded-lg h-40"
             />
             <div className="description text-white text-sm gap-y-1/2 flex flex-col text-center">
               <span>Web app that analyzes and visualizes</span>
