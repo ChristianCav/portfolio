@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import { Route, Routes } from 'react-router';
 import Homepage from './pages/Homepage';
 import { useRef } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const projectsRef = useRef<HTMLDivElement>(null);
@@ -30,6 +31,7 @@ function App() {
           }
         ></Route>
       </Routes>
+      <Analytics />
     </div>
   );
 }
